@@ -27,5 +27,4 @@ public class MaxSubArOfFixedSize {
         }
         return max_value;
     }
-
 }
