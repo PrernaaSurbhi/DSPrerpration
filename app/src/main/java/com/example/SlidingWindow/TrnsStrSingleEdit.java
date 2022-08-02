@@ -27,8 +27,6 @@ public class TrnsStrSingleEdit {
         Set hmSet1 = hm1.entrySet();
         Set hmSet2 = hm2.entrySet();
 
-        System.out.println("hmSet1 Len is:"+hmSet1);
-        System.out.println("hmSet2 Len is:"+hmSet2);
 
         if(str1.length() == str2.length()){
             if(hmSet1.equals(hmSet2)){
@@ -43,7 +41,11 @@ public class TrnsStrSingleEdit {
             int unEqualKeySet2 = hm2.keySet().size();
             System.out.println("keySet1 Len is:"+unEqualKeySet1);
             System.out.println("keySet2 Len is:"+unEqualKeySet2);
-            System.out.println("i am failing here");
+            if(unEqualKeySet1 == unEqualKeySet2 &&
+                    ((str1.length()- str2.length() == 1) || (str2.length() - str1.length() ==1))){
+                System.out.println("ha ha i am equal here");
+                return true;
+            }
             return (unEqualKeySet1 - unEqualKeySet2 == 1) || (unEqualKeySet1 - unEqualKeySet2 == 1);
         }
 
