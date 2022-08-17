@@ -1,4 +1,4 @@
-package com.example.StringPrep;
+package com.example.tries;
 //This question is to find shortest unique prefix.
 //Output: [A, BON, BOO, CAS, CAT, CH]
 
