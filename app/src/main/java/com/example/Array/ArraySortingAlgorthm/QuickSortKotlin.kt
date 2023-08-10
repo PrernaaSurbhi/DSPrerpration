@@ -1,4 +1,4 @@
-package com.example.ArraySortingAlgorthm
+package com.example.Array.ArraySortingAlgorthm;
 
 ////Array before sorting is 80,85,60,90,70
 ////sorted Array is 60 70 80 85 90

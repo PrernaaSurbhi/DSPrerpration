@@ -1,7 +1,7 @@
 /**
  * Created by PrernaSurbhi on 02/08/23.
  */
-package com.example.ArraySortingAlgorthm;
+package com.example.Array.ArraySortingAlgorthm;
 
 public class MergeSortt {
     public static void main(String[] args)  {
