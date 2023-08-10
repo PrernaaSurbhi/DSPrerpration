@@ -17,7 +17,7 @@ object BinarySearch {
         var e = nums.size-1
 
         while(s<=e){
-            var mid = (s + e) / 2
+            var mid = s + (e -s) / 2
 
             if(target == nums[mid]){
                 return mid
